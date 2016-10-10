@@ -1,7 +1,7 @@
 # Apache Tiles Example
 Apache tiles sample project to illustrate basic configuration.
 
-## Pre requiites
+## Pre requisites
 - Java 8+
 - Maven 3.3.3+
 
