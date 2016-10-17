@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jetty.maven.plugin-version>9.3.11.v20160721</jetty.maven.plugin-version>
 		<java-version>1.8</java-version>
-		<tiles-version>3.0.5</tiles-version>
+		<tiles-version>3.0.7</tiles-version>
 		<servlet.api.version>3.1.0</servlet.api.version>
 		<jsp.api.version>2.3.1</jsp.api.version>
 		<jsp.jstl.version>1.2.1</jsp.jstl.version>
@@ -62,7 +62,7 @@
 			<groupId>javax.servlet.jsp.jstl</groupId>
 			<artifactId>javax.servlet.jsp.jstl-api</artifactId>
 			<version>${jsp.jstl.version}</version>
-			<scope>compile</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
